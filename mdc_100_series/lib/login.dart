@@ -13,6 +13,7 @@
 // limitations under the License.
 
 import 'package:flutter/material.dart';
+import 'package:shrine/colors.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -85,9 +86,14 @@ class _LoginPageState extends State<LoginPage> {
                 ElevatedButton(
                   child: const Text('NEXT'),
                   onPressed: () {
-                // TODO: Show the next page (101) 
-                Navigator.pop(context);
+                    // TODO: Show the next page (101) 
+                    Navigator.pop(context);
                   },
+                  style: ElevatedButton.styleFrom(
+                    foregroundColor: kShrineBrown900,
+                    backgroundColor: kShrinePink100,
+                    elevation: 8.0,
+                  )
                 ),
               ]),
           ],

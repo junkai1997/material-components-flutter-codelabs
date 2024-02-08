@@ -67,6 +67,10 @@ ThemeData _buildShrineTheme() {
     textSelectionTheme: const TextSelectionThemeData(
       selectionColor: kShrinePink100,
     ),
+    appBarTheme: const AppBarTheme(
+      foregroundColor: kShrineBrown900,
+      backgroundColor: kShrinePink100,
+    ),
     // TODO: Decorate the inputs (103)
     inputDecorationTheme: const InputDecorationTheme(
       border: CutCornersBorder(),
